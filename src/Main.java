@@ -5,12 +5,11 @@ public class Main {
         String firstName = " Ivan";
         String middleName = " Ivanovich";
         String lastName = "Ivanov";
-        String fullName = "Ivanov Ivan Ivanovich";
+        String fullName = lastName + firstName + middleName;
         System.out.println("ФИО сотрудника — " + fullName + ".");
-        System.out.println("ФИО сотрудника — " + lastName + firstName + middleName + ".");
 
         // Задание 2
-        fullName = fullName.replace("Ivanov Ivan Ivanovich","IVANOV IVAN IVANOVICH");
+        fullName = fullName.toUpperCase();
         System.out.println("Данные ФИО сотрудника для заполнения отчета — " + fullName + "!");
 
         // Задание 3
